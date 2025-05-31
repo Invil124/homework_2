@@ -31,10 +31,7 @@ while True:
     if a == b:
         print(f'Numbers are equal {a}={b}')
         break
-
-    if a > b:
-        print(f"{a} >{ b}")
-        break
     else:
-        print(f"{a} < {b}")
+        list_a_b = [a,b]
+        print(f'{max(list_a_b)} > {min(list_a_b)}')
         break
